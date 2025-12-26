@@ -147,9 +147,7 @@ function writeTask(event) {
     }
     
     // также создаём задачку как загружали список внизу, но! задачка падает на начало списка а не в конец
-    const taskElement = createItem(item);
-    listElement.prepend(taskElement); 
-    
+     listElement.prepend(createItem(item)); 
 	//соберём новые задачи кторые были кроме списк а существующщих, то есть элемент синхронизации ДОМ и переменной для загрузки
 	//но а вообще кажется это более удобная загрузка
 	itemsState.itemsNolet = getTasksFromDOM();//получили, оно вернётт их тексты
