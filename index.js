@@ -154,7 +154,7 @@ function writeTask(event) {
     saveTasks(itemsState.itemsNolet);//сохранили в локал хранилище
     
    
-	inputElement.value = '';//очищаем пол
+	inputElement.value = '';//очищаем
 }
 
 // 				ТУТ ЗАГРУЗКА задач со списка и от сюда начинаются вызовы функций
